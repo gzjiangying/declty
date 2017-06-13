@@ -1,0 +1,17 @@
+{
+  "apps": [{
+    "name": "myweb",
+    "script": "application.js",
+    "watch": true,
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4000,
+      "WEBPACK_DEV_SERVER": "http://localhost:8080"
+    },
+
+    "env_production": {
+      "NODE_ENV": "production",
+      "PORT": 3000,
+    }
+  }]
+}
